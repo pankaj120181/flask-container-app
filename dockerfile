@@ -1,10 +1,8 @@
 FROM ubuntu:16.04
 
-ADD ./Fellowcity /Fellowcity
+ADD ./* /flaskcontainerapp
 
-MAINTAINER Pankaj Yadav "pankajcoder1201@gmail.com"
-
-WORKDIR /Fellowcity
+WORKDIR /flaskcontainerapp
 
 RUN apt-get update -y && \ 
     apt-get install -y python3-pip python-dev
