@@ -4,7 +4,7 @@ This application is packaged into a docker iamge and run as a docker container.
 
 The End user needs to pull the source code from this repository which also has the dockerfile. 
 
-Perform following steps in order to run the application container
+Perform following steps in order to run the application container. (Note: It is assumed, user has already got docker/docker desktop installed.)
 
 1. git clone https://github.com/pankaj120181/flask-container-app.git
 2. cd flask-container-app
