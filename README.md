@@ -11,7 +11,7 @@ Perform following steps in order to run the application container. (Note: It is 
 3. Build the docker images using following command from the workspace containing dockerfile. 
    **docker build -t flask-app:v1.0 .**
 2. After image is built, run following command, 
-   **docker run  -d -p 80:5000 flask-app:v2.0**
+   **docker run  -d -p 80:5000 flask-app:v1.0**
 3. Browse the application as http://127.0.0.1/
    **Note: Make sure no other application is running on port 80 on the local host**
   
